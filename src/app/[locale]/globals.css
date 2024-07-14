@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --primary: #161616;
+  --secondary: #eed5a2;
+  --accent: #FFC107;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+    scroll-behavior: smooth;
+  } 
+
+  .nav-btn {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+  
+  }
+  
+  .nav-btn span {
+    position: absolute;
+      display: block;
+      width: 40%;
+      height: 2px;
+      background-color: var(--primary);
+      border-radius: 1px;
+      transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+  }
+  .nav-btn span:first-child {
+    top: 16px;
+  }
+  .nav-btn span:last-child {
+    bottom: 16px;
+  }
+  .nav-btn span:first-child.active {
+  
+    top: 19px;
+  }
+  .nav-btn span:last-child.active {
+  
+    bottom: 19px;
+    
+  }

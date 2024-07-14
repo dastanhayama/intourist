@@ -1,0 +1,21 @@
+{
+    "Header": {
+      "home-link": "Services",
+      "cars-link": "Autopark",
+      "contact-link": "Contact"
+    }, 
+    "Metadata": {
+        "title": "Welcome to Intourism_kg ",
+        "description": "Hello world"
+    },
+    "Footer": {
+      "address": "Tokmok, microdistrict 3, h. 11, ap. 24",
+      "title": "Passenger transportation website"
+    },
+    "Services": {
+      "1": "VIP transportations",
+      "2": "Rent a minibus with a driver",
+      "3": "Bus transportations"
+    }
+
+  }
