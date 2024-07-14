@@ -20,9 +20,9 @@ function Services() {
             className="w-full md:h-[300px] h-[220px] object-cover rounded-md"
           />
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
-            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer">
+            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer text-center">
             {v("1")}
           </a>
         </li>
@@ -33,9 +33,9 @@ function Services() {
             className="w-full md:h-[300px] h-[220px] object-cover rounded-md"
           />
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
-            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer">
+            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer text-center">
             {v("2")}
           </a>
         </li>
@@ -46,9 +46,9 @@ function Services() {
             className="w-full md:h-[300px] h-[220px] object-cover rounded-md"
           />
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
-            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer">
+            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer text-center">
             {v("3")}
           </a>
         </li>
@@ -59,9 +59,9 @@ function Services() {
             className="w-full md:h-[300px] h-[220px] object-cover rounded-md"
           />
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
-            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer">
+            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer text-center">
             {v("4")}
           </a>
         </li>
@@ -72,9 +72,9 @@ function Services() {
             className="w-full md:h-[300px] h-[220px] object-cover rounded-md"
           />
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
-            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer">
+            className="font-semibold hover:underline transition duration-200 text-primary cursor-pointer text-center">
             {v("5")}
           </a>
         </li>

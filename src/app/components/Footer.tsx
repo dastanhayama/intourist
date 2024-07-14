@@ -23,7 +23,7 @@ function Footer() {
         </li>
         <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
           <FaWhatsapp size={20} />
-          <a href="https://wa.me/+996500580150" target="_blank">
+          <a href="https://wa.me/+996509812222" target="_blank">
             {" "}
             WhatsApp
           </a>
@@ -41,30 +41,51 @@ function Footer() {
       </ul>
       <ul className="flex flex-col gap-4">
         <li className="text-lg font-bold text-white">{t("home-link")}</li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("1")}
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("2")}
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("3")}
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("4")}
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("5")}
-        </li>
+        </a>
       </ul>
       <ul className="flex flex-col gap-4">
         <li className="text-lg font-bold text-white">{t("cars-link")}</li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {n("1")}
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
           {n("2")}
-        </li>
+        </a>
       </ul>
     </footer>
   );

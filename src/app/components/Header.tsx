@@ -27,7 +27,7 @@ function Header() {
         </a>
       </ul>
       <a
-        href="https://wa.me/+996500580150"
+        href="https://wa.me/+996509812222"
         target="_blank"
         className="flex items-center gap-2 px-2 py-1 rounded-md bg-green-500 text-white">
         <span>WhatsApp</span>

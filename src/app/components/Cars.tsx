@@ -53,7 +53,7 @@ function Cars() {
       <ul className="w-full grid grid-cols-1 md:grid-cols-3 items-start gap-4">
         {cars.map((car) => (
           <a
-            href="https://wa.me/+996500580150"
+            href="https://wa.me/+996509812222"
             target="_blank"
             key={car.id}
             className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md cursor-pointer">
