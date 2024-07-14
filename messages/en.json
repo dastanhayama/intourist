@@ -15,7 +15,27 @@
     "Services": {
       "1": "VIP transportations",
       "2": "Rent a minibus with a driver",
-      "3": "Bus transportations"
+      "3": "Bus transportations",
+      "4": "Driver with a translator",
+      "5": "Departure in any direction"
+    },
+    "Features": {
+      "title": "Why us?",
+      "1" : "We follow the rules of the road and etiquette.",
+      "2" : "Fixed prices. No extra charges.",
+      "3" : "We are on time at the place. Drivers are never late.",
+      "4" : "You and your belongings will arrive safely and securely.",
+      "5" : "Comfortable travel conditions: modern buses are equipped with everything necessary for a comfortable and pleasant journey.",
+      "6" : "Non-stop support: our support team is always ready to help you at any time of the day."
+    },
+    "Hero": {
+      "title": "Passenger transportation in Bishkek",
+      "description": "Our company provides passenger transportation services on modern buses from the world's leading manufacturers. All our drivers are professionals with many years of experience.",
+      "desc2": "Our services include not only transportation and passenger transportation, but also meeting business partners at the airport or train station, as well as organizing tourist trips. The high level of qualification of our staff allows us to guarantee a high level of service, which ensures comfortable trips and customer satisfaction. Our minibuses and buses are designed for long-distance passenger transportation. The comfortable seats are suitable for sleeping and relaxing. The salons have TVs and other equipment for playing movies and music, as well as air conditioning and heating systems in winter. All vehicles are regularly inspected and have valid certificates. The company has all the necessary permits for long-distance and international transportation."
+    }, 
+    "Cars": {
+      "1": "Minivan",
+      "2": "Mercedes Benz Sprinter"
     }
 
   }

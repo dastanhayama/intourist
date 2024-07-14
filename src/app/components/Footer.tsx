@@ -3,11 +3,13 @@ import { FaPhone } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { useTranslations } from "next-intl";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   const t = useTranslations("Header");
   const v = useTranslations("Footer");
   const b = useTranslations("Services");
+  const n = useTranslations("Cars");
 
   return (
     <footer
@@ -18,6 +20,13 @@ function Footer() {
         <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
           <FaPhone size={20} />
           <a href="tel:+996509812222"> +996 509 812 222</a>
+        </li>
+        <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
+          <FaWhatsapp size={20} />
+          <a href="https://wa.me/+996500580150" target="_blank">
+            {" "}
+            WhatsApp
+          </a>
         </li>
         <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
           <FaLocationArrow size={20} />
@@ -41,20 +50,20 @@ function Footer() {
         <li className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("3")}
         </li>
+        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+          {b("4")}
+        </li>
+        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
+          {b("5")}
+        </li>
       </ul>
       <ul className="flex flex-col gap-4">
         <li className="text-lg font-bold text-white">{t("cars-link")}</li>
         <li className="text-white hover:text-accent cursor-pointer transition duration-200">
-          Автобус Сетра 315 HD, 48 мест
+          {n("1")}
         </li>
         <li className="text-white hover:text-accent cursor-pointer transition duration-200">
-          Автобус-Мерседес 46 мест
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
-          Минивен
-        </li>
-        <li className="text-white hover:text-accent cursor-pointer transition duration-200">
-          Мерседес Спринтер
+          {n("2")}
         </li>
       </ul>
     </footer>
