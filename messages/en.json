@@ -41,7 +41,8 @@
       "title": "Book a car",
       "date": "Choose a date",
       "time":"Choose a time",
-      "button":"Book"
+      "button":"Book",
+      "Whatsapp": "Hello, I want to book a car for"
     }
 
   }
