@@ -46,7 +46,7 @@ function Cars() {
   return (
     <section
       id="cars"
-      className="w-full h-auto flex flex-col justify-center items-center gap-8 pt-8 pb-24 px-6 md:px-[200px]  max-w-[1440px]">
+      className="w-full h-auto flex flex-col justify-center items-center gap-8 py-8 px-6 md:px-[200px]  max-w-[1440px]">
       <h3 className="text-xl font-bold uppercase text-primary">
         {t("cars-link")}
       </h3>

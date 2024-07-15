@@ -36,6 +36,12 @@
     "Cars": {
       "1": "Minivan",
       "2": "Mercedes Benz Sprinter"
+    }, 
+    "Date": {
+      "title": "Book a car",
+      "date": "Choose a date",
+      "time":"Choose a time",
+      "button":"Book"
     }
 
   }
