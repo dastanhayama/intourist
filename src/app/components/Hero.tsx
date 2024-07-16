@@ -5,7 +5,7 @@ function Hero() {
   const t = useTranslations("Hero");
   return (
     <section className="w-full h-auto flex flex-col justify-center items-center gap-8 pb-8   max-w-[1440px]">
-      <div className="relative w-full flex items-center justify-center h-auto md:h-[75vh]">
+      <div className="relative w-full flex items-center justify-center h-auto md:h-[75vh] py-8">
         <img
           src="/hero.jpg"
           alt="Background"
@@ -16,7 +16,7 @@ function Hero() {
           <h1 className="text-4xl font-bold uppercase text-white text-center">
             {t("title")}
           </h1>
-          <p className="text-md font-semibold text-white text-justify md:text-center">
+          <p className="text-md font-semibold text-white text-center">
             {t("description")}
           </p>
         </div>
