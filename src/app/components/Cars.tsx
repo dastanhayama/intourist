@@ -38,6 +38,22 @@ const cars = [
     id: 8,
     imgUrl: "/bus8.jpg",
   },
+  {
+    id: 9,
+    imgUrl: "/van1.jpeg",
+  },
+  {
+    id: 10,
+    imgUrl: "/van2.jpeg",
+  },
+  {
+    id: 11,
+    imgUrl: "/van3.jpg",
+  },
+  {
+    id: 12,
+    imgUrl: "/van4.jpg",
+  },
 ];
 
 function Cars() {

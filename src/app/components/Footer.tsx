@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPhone } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { useTranslations } from "next-intl";
@@ -26,6 +27,15 @@ function Footer() {
           <a href="https://wa.me/+996509812222" target="_blank">
             {" "}
             WhatsApp
+          </a>
+        </li>
+        <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
+          <FaInstagram size={20} />
+          <a
+            href="https://www.instagram.com/intourist_kg_?igsh=MTh6c3ljY3hvN3YweA%3D%3D&utm_source=qr"
+            target="_blank">
+            {" "}
+            Instagram
           </a>
         </li>
         <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
@@ -70,6 +80,18 @@ function Footer() {
           target="_blank"
           className="text-white hover:text-accent cursor-pointer transition duration-200">
           {b("5")}
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
+          {b("6")}
+        </a>
+        <a
+          href="https://wa.me/+996509812222"
+          target="_blank"
+          className="text-white hover:text-accent cursor-pointer transition duration-200">
+          {b("7")}
         </a>
       </ul>
       <ul className="flex flex-col gap-4">

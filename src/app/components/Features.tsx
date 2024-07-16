@@ -9,22 +9,58 @@ function Features() {
       </h3>
       <div className="w-full bg-accent rounded-md h-auto grid grid-cols-1 md:grid-cols-2 items-start gap-8 p-8">
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">1) {t("1")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              1
+            </span>{" "}
+            {t("1")}
+          </span>
         </div>
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">2) {t("2")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              2
+            </span>{" "}
+            {t("2")}
+          </span>
         </div>
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">3) {t("3")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              3
+            </span>{" "}
+            {t("3")}
+          </span>
         </div>
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">4) {t("4")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              4
+            </span>{" "}
+            {t("4")}
+          </span>
         </div>
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">5) {t("5")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              5
+            </span>{" "}
+            {t("5")}
+          </span>
         </div>
         <div className="flex items-center justify-start gap-4 col-span-1 ">
-          <span className="text-primary text-sm">6) {t("6")}</span>
+          <span className="text-primary text-sm flex gap-4 items-center text-center md:text-left">
+            <span className="rounded-md text-white bg-primary py-1 px-3 flex items-center justify-center">
+              {" "}
+              6
+            </span>{" "}
+            {t("6")}
+          </span>
         </div>
       </div>
     </section>

@@ -5,11 +5,11 @@
       "contact-link": "Contact"
     }, 
     "Metadata": {
-        "title": "Passenger transportation in Bishkek with Intourism_kg ",
+        "title": "Passenger transportation in Central Asia and Russia with Intourism_kg ",
         "description": "Our company provides passenger transportation services on modern buses from the world's leading manufacturers. All our drivers are professionals with many years of experience."
     },
     "Footer": {
-      "address": "Tokmok, microdistrict 3, h. 11, ap. 24",
+      "address": "Tokmok, microdistrict 3, h. 11, ap. 23",
       "title": "Passenger transportation website"
     },
     "Services": {
@@ -17,7 +17,9 @@
       "2": "Rent a minibus with a driver",
       "3": "Bus transportations",
       "4": "Driver with a translator",
-      "5": "Departure in any direction"
+      "5": "Departure in any direction",
+      "6": "Rent a minivan",
+      "7": "Meeting at the airport and transfer"
     },
     "Features": {
       "title": "Why us?",
@@ -29,7 +31,8 @@
       "6" : "Non-stop support: our support team is always ready to help you at any time of the day."
     },
     "Hero": {
-      "title": "Passenger transportation in Bishkek",
+      "title": "Passenger transportation in Central Asia and Russia",
+      "title2": "About company",
       "description": "Our company provides passenger transportation services on modern buses from the world's leading manufacturers. All our drivers are professionals with many years of experience.",
       "desc2": "Our services include not only transportation and passenger transportation, but also meeting business partners at the airport or train station, as well as organizing tourist trips. The high level of qualification of our staff allows us to guarantee a high level of service, which ensures comfortable trips and customer satisfaction. Our minibuses and buses are designed for long-distance passenger transportation. The comfortable seats are suitable for sleeping and relaxing. The salons have TVs and other equipment for playing movies and music, as well as air conditioning and heating systems in winter. All vehicles are regularly inspected and have valid certificates. The company has all the necessary permits for long-distance and international transportation."
     }, 
@@ -41,8 +44,11 @@
       "title": "Book a car",
       "date": "Choose a date",
       "time":"Choose a time",
+      "car": "Choose a car",
+      "address": "Pickup address",
       "button":"Book",
-      "Whatsapp": "Hello, I want to book a car for"
+      "time2":"date and time",
+      "Whatsapp": "Hello, I want to book a "
     }
 
   }
