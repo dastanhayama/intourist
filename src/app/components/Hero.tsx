@@ -21,7 +21,9 @@ function Hero() {
           </p>
         </div>
       </div>
-      <h2 className="text-xl font-bold uppercase text-primary text-center">
+      <h2
+        id="hero"
+        className="text-xl font-bold uppercase text-primary text-center">
         {t("title2")}
       </h2>
       <p className="text-md text-primary text-justify px-6 md:px-[200px]">

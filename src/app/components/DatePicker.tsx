@@ -22,7 +22,9 @@ function DatePicker() {
     }
   };
   return (
-    <section className="w-full h-auto flex flex-col justify-center items-center gap-8 pt-8 pb-24 px-6 md:px-[200px]  max-w-[1440px]">
+    <section
+      id="book"
+      className="w-full h-auto flex flex-col justify-center items-center gap-8 pt-8 pb-24 px-6 md:px-[200px]  max-w-[1440px]">
       <h1 className="text-xl font-bold uppercase text-primary text-center">
         {t("title")}
       </h1>

@@ -4,12 +4,13 @@ import { useTranslations } from "next-intl";
 
 function Header() {
   const t = useTranslations("Header");
+  const v = useTranslations("Date");
   return (
-    <nav className=" w-full h-auto flex justify-between items-center pt-[6px] px-6 md:px-[200px] pb-2 bg-primary max-w-[1440px]">
+    <nav className=" w-full h-auto flex justify-between items-center pt-[6px] px-6 md:px-[100px] lg:px-[200px] pb-2 bg-primary max-w-[1440px]">
       <Link href="/" className="flex items-center h-full">
         <img src="/logo.png" alt="logo" className="w-[80px] md:w-[100px]" />
       </Link>
-      <ul className="md:flex gap-8 items-center hidden text-white font-semibold">
+      <ul className="md:flex gap-8 items-center hidden text-white font-semibold text-sm">
         <a
           href="#services"
           className="px-2 py-1 rounded-md bg-primary hover:bg-[#292929] transition duration-200">
@@ -24,6 +25,11 @@ function Header() {
           href="#contact"
           className="px-2 py-1 rounded-md bg-primary hover:bg-[#292929] transition duration-200">
           {t("contact-link")}
+        </a>
+        <a
+          href="#book"
+          className="px-2 py-1 rounded-md bg-primary hover:bg-[#292929] transition duration-200">
+          {v("title")}
         </a>
       </ul>
       <a

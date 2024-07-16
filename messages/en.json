@@ -3,9 +3,10 @@
       "home-link": "Services",
       "cars-link": "Autopark",
       "contact-link": "Contact"
+
     }, 
     "Metadata": {
-        "title": "Passenger transportation in Central Asia and Russia with Intourism_kg ",
+        "title": "Passenger transportation in Central Asia with Intourism_kg ",
         "description": "Our company provides passenger transportation services on modern buses from the world's leading manufacturers. All our drivers are professionals with many years of experience."
     },
     "Footer": {
@@ -31,7 +32,7 @@
       "6" : "Non-stop support: our support team is always ready to help you at any time of the day."
     },
     "Hero": {
-      "title": "Passenger transportation in Central Asia and Russia",
+      "title": "Passenger transportation in Central Asia",
       "title2": "About company",
       "description": "Our company provides passenger transportation services on modern buses from the world's leading manufacturers. All our drivers are professionals with many years of experience.",
       "desc2": "Our services include not only transportation and passenger transportation, but also meeting business partners at the airport or train station, as well as organizing tourist trips. The high level of qualification of our staff allows us to guarantee a high level of service, which ensures comfortable trips and customer satisfaction. Our minibuses and buses are designed for long-distance passenger transportation. The comfortable seats are suitable for sleeping and relaxing. The salons have TVs and other equipment for playing movies and music, as well as air conditioning and heating systems in winter. All vehicles are regularly inspected and have valid certificates. The company has all the necessary permits for long-distance and international transportation."
@@ -49,6 +50,15 @@
       "button":"Book",
       "time2":"date and time",
       "Whatsapp": "Hello, I want to book a "
+    },
+    "Testimonials": {
+      "title":  "Testimonials",
+      "1": "Thank you for the excellent service! The trip was comfortable and safe. The driver was polite and punctual. I will definitely recommend your company to my friends.",
+      "2": "I am very satisfied with the service! The route was carefully thought out and I got to my destination on time. I will use your services again.",
+      "3": "The trip was a great success! The car was clean and comfortable, and the driver helped with the luggage. Thank you so much for the high level of service!",
+      "4": "A great experience! The trip was fast and hassle-free. I really liked the professionalism of your team. I recommend it to everyone!",
+      "5": "The service is at the highest level! The driver was very attentive to details and provided a comfortable ride. I will definitely use your services again",
+      "0": "Excellent service! The route was organized flawlessly, and I got to my destination on time and without delay. I am very pleased!"
     }
 
   }

@@ -5,12 +5,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { useTranslations } from "next-intl";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoIosText } from "react-icons/io";
 
 function Footer() {
   const t = useTranslations("Header");
   const v = useTranslations("Footer");
   const b = useTranslations("Services");
   const n = useTranslations("Cars");
+  const m = useTranslations("Hero");
 
   return (
     <footer
@@ -37,6 +39,10 @@ function Footer() {
             {" "}
             Instagram
           </a>
+        </li>
+        <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
+          <IoIosText size={20} />
+          <a href="#hero">{m("title2")}</a>
         </li>
         <li className="flex items-center gap-2 text-white hover:text-accent cursor-pointer transition duration-200">
           <FaLocationArrow size={20} />
