@@ -5,7 +5,7 @@ function Hero() {
   const t = useTranslations("Hero");
   return (
     <section className="w-full h-auto flex flex-col justify-center items-center gap-8 pb-8   max-w-[1440px]">
-      <div className="relative w-full flex items-center justify-center h-[50vh] md:h-[75vh]">
+      <div className="relative w-full flex items-center justify-center h-auto md:h-[75vh]">
         <img
           src="/hero.jpg"
           alt="Background"
