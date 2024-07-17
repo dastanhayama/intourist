@@ -17,7 +17,7 @@ function LangSwitcher() {
     });
   };
   return (
-    <div className="w-full h-auto flex justify-end items-center py-1 px-6 md:px-[200px]  bg-white max-w-[1440px]">
+    <div className="w-full h-auto flex justify-end items-center py-1 px-6 md:px-[200px]  bg-gray-100 max-w-[1440px]">
       <label className="flex gap-4 items-center" htmlFor="select">
         <select
           name="select"

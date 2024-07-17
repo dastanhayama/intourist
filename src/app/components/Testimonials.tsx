@@ -31,7 +31,7 @@ function Testimonials() {
           {a.map((item) => (
             <div
               key={item}
-              className="embla__slide flex flex-col gap-4 md:w-1/2 w-full h-auto bg-gray-300 p-8">
+              className="embla__slide flex flex-col gap-4 md:w-1/2 w-full h-auto bg-gray-100 p-8">
               <div className="flex items-center text-yellow-500">
                 <IoStarSharp size={25} />
                 <IoStarSharp size={25} />

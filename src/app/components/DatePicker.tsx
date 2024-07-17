@@ -81,7 +81,7 @@ function DatePicker() {
           address.length === 0
         }
         onClick={handleSubmit}
-        className="py-2 px-4 rounded-md bg-accent text-primary font-semibold disabled:bg-gray-300 disabled:text-gray-500 w-[200px]">
+        className="py-2 px-4 rounded-md bg-accent text-primary font-semibold disabled:bg-gray-100 disabled:text-gray-500 w-[200px]">
         {t("button")}
       </button>
     </section>

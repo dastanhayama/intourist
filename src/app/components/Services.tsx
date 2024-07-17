@@ -13,7 +13,7 @@ function Services() {
         {t("home-link")}
       </h3>
       <ul className="w-full grid grid-cols-1 md:grid-cols-2 items-start gap-4">
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/bus5.jpg"
             alt="microbus"
@@ -26,7 +26,7 @@ function Services() {
             {v("1")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/bus0.jpg"
             alt="microbus"
@@ -39,7 +39,7 @@ function Services() {
             {v("2")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/bus11.jpg"
             alt="microbus"
@@ -52,7 +52,7 @@ function Services() {
             {v("3")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/bus3.jpg"
             alt="microbus"
@@ -65,7 +65,7 @@ function Services() {
             {v("4")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/bus7.jpg"
             alt="microbus"
@@ -78,7 +78,7 @@ function Services() {
             {v("5")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/van3.jpg"
             alt="microbus"
@@ -91,7 +91,7 @@ function Services() {
             {v("6")}
           </a>
         </li>
-        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4">
+        <li className="col-span-1 flex flex-col gap-4 items-center justify-center rounded-md shadow-lg py-4 bg-white">
           <img
             src="/van1.jpeg"
             alt="microbus"
